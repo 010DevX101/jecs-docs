@@ -1,0 +1,11 @@
+# Typescript
+/node_modules
+/include
+
+# Cached Vitepress (docs)
+
+/docs/.vitepress/cache
+/docs/.vitepress/dist
+
+.vitepress/cache
+.vitepress/dist

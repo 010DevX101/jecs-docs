@@ -1,0 +1,28 @@
+{
+  "name": "jecs-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/010devx101/jecs-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/010devx101/jecs-docs/issues"
+  },
+  "homepage": "https://github.com/010devx101/jecs-docs#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vitepress": "^1.6.3"
+  }
+}
